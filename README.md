@@ -1,39 +1,21 @@
 # Multi-Wordle
 
-Wordle is a web-based word game created and developed by Welsh software engineer Josh Wardle. Players have six attempts to guess a five-letter word, with feedback given for each guess in the form of colored tiles indicating when letters match or occupy the correct position.
+Multi Wordle is an interactive word-guessing game where players compete to guess a hidden word within a limited number of attempts. This project is built using the MERN stack (MongoDB, Express, React, Node.js).
 
-For a more personal experience, I included user authentication with JWT access, refresh tokens, and cookies. This enabled me to perform CRUD operations on user data (stored in MongoDB) to display individual and global statistics on a leaderboard so that users can compare and compete against each other.
+## Features
 
-## Goals
+* Multiplayer gameplay: Players can compete against each other to guess the hidden word.
+* Real-time updates: The game board updates in real-time to show the progress of all players.
+* Chat functionality: Players can communicate through the in-game chat system.
+* Game lobby: Players can join and create game rooms, invite friends, and start new games.
+* User authentication: Secure user authentication and registration system.
+* Leaderboard: Keeps track of player scores and displays the top performers.
 
-Build a full-stack project from scratch.
+## Usage
 
-Strengthen my skills in React, Express, and Node.
-
-Create a responsive, user-friendly design using CS with a mobile-first approach.
-
-Deploy my frontend and backend separately with continuous deployment.
-
-Have the backend and API run "indefinitely", receiving requests and sending responses from the frontend.
-
-Manage user info, data, and statistics in MongoDB using Mongoose Schemas.
-
-Engineer CRUD operations on user data to display statistics on a global player leaderboard.
-
-Create a REST API to issue the client app's access and refresh token in an httpOnly cookie for better security.
-
-Encrypt user login passwords using bcrypt and salt, with persisting login state on refresh.
-
-## Next Steps
-
-Real-time multiplayer - play against a friend to see who can guess the correct word first.
-
-Allow users to choose customizable color palettes.
-
-Display a page of personal data with graphs and charts based on win/loss percentages, average time-to-win, win probabilities for each row, etc.
-
-For inclusivity (and personal foreign language practice), add language options such as Spanish. May require an API to access other random foreign language solution words.
-
-Add a "forgot my password" option on the login page.
-
-Add an option to delete account.
+* Register and log in to access the game.
+* Join or create a game room.
+* Share the room code with friends to invite them.
+* Guess the hidden word within the given number of attempts.
+* Use the in-game chat to communicate with other players.
+* Check the leaderboard to see how you're performing against others.
